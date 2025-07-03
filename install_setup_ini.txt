@@ -1,0 +1,52 @@
+mommy@Ritus-Laptop gitted_resume % npm list
+loves-me-resume@0.0.1 /Users/mommy/Documents/_loves-me-App/gitted_resume
+├── @astrojs/markdown-remark@6.3.2
+├── @astrojs/preact@4.1.0
+├── @tailwindcss/cli@4.1.11
+├── @tailwindcss/postcss@4.1.11
+├── @tailwindcss/typography@0.5.16
+├── @types/react@19.1.8
+├── astro@5.10.2
+├── autoprefixer@10.4.21
+├── postcss@8.5.6
+├── preact@10.26.9
+├── tailwindcss@4.1.11
+└── zod@3.25.69
+
+npm list --depth=0 > dependencies.txt
+
+Lock It in package.json
+That’s already being done automatically! But just make sure to:
+Always commit your package.json and package-lock.json files
+Don’t delete or regenerate node_modules without these files—they’re your blueprint
+If you want version summaries, you could create:
+bash
+npm list --depth=0 > dependencies.txt
+Or a Markdown-friendly version:
+bash
+npx npm-remote-ls $(jq -r .name package.json) -d >> setup-log.md
+🔧 2. Automate Setup with a Script
+Create a quick shell script: scripts/setup-dev.sh
+bash
+#!/bin/bash
+echo "🌱 Installing dev dependencies..."
+
+npm install
+
+echo "✅ Dependencies installed."
+echo "🌸 Run 'npm run dev' to start your project."
+And make it runnable:
+bash
+chmod +x scripts/setup-dev.sh
+Then in README.md, add:
+md
+### 🛠 Quick Setup
+
+```bash
+./scripts/setup-dev.sh
+
+🌟 You can also make one for Netlify or Astro deploy previews, if you start working with them.
+
+---
+
+Make `check-versions.sh` script to flag outdated packages, or a prettier ASCII-flavored startup banner. You're not just coding—you're setting up a thoughtful digital habitat 🌼

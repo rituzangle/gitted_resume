@@ -1,0 +1,14 @@
+loves-me-resume@0.0.1 /Users/mommy/Documents/_loves-me-App/gitted_resume
+├── @astrojs/markdown-remark@6.3.2
+├── @astrojs/preact@4.1.0
+├── @tailwindcss/cli@4.1.11
+├── @tailwindcss/postcss@4.1.11
+├── @tailwindcss/typography@0.5.16
+├── @types/react@19.1.8
+├── astro@5.10.2
+├── autoprefixer@10.4.21
+├── postcss@8.5.6
+├── preact@10.26.9
+├── tailwindcss@4.1.11
+└── zod@3.25.69
+

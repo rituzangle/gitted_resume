@@ -34,13 +34,22 @@ Hi, I’m **Ritu Sangha**—a developer, designer, and daydreamer who builds acc
 - Emotional storytelling > buzzwords  
 
 ---
+## 📜 Project Requirements
 
-## 🗂️ File Structure
+See full [requirements.md](requirements.md) for technical stack, features, and design goals.
 
+## For future me
+
+When its time to update, see setup-log.md and the scripts in ./scripts/ to do it right
+
+### 🛠 Quick Setup
+
+```bash
+./scripts/setup-dev.sh
+
+
+🌟 You can also make one for Netlify or Astro deploy previews, if you start working with them.
 
 ---
-
-## 📜 License
-
-MIT – Yours to remix with love 💌
+I'm trying to set up a thoughtful digital habitat 🌼
 

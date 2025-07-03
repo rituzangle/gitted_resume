@@ -32,7 +32,6 @@ A digital daisy-plucking game app powered by cultural nuance and expressive inte
 
 Astro · Tailwind CSS · Lottie · i18next · Netlify · GitHub Actions · Figma
 
-## 📜 Résumé PDF
 <!--
 ## 📜 Résumé PDF
 <iframe 
