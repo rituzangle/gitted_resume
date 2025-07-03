@@ -1,6 +1,13 @@
-# 🌸 Loves Me Résumé
+# 💫 Gitted Résumé
 
-A multilingual, emotion-forward résumé experience inspired by whimsy, clarity, and charm. Built with [Astro](https://astro.build/) + [Tailwind CSS](https://tailwindcss.com/), and sprinkled with thoughtful animations and privacy-first design.
+This is a playful, minimal personal site built with Astro + Tailwind to showcase some of my work, technical storytelling, and privacy-friendly résumé. Designed to be emotionally engaging, semantically accessible, and delightfully low-maintenance.
+
+### 📎 Résumé Preview
+
+- Markdown version: [`src/content/resume/intro.md`](src/content/resume/intro.md)
+- PDF: `/public/Ritu Sangha CV.pdf` (shown in-page via expandable preview)
+
+> See full [requirements.md](requirements.md) for scope and stack
 
 ---
 
