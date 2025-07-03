@@ -1,0 +1,6 @@
+/* src/styles/tailwind.css */
+/* 🌼 Tailwind v4–compatible config set */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+

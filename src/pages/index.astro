@@ -1,0 +1,30 @@
+---
+import ResumeLayout from '../layouts/ResumeLayout.astro';
+import Hero from '../components/Hero.astro';
+import { getEntry } from 'astro:content';
+import type { CollectionEntry } from 'astro:content';
+
+const resumeEntry = await getEntry('resume', 'intro') as CollectionEntry<'resume'>;
+const { Content } = await resumeEntry.render();
+---
+
+<ResumeLayout>
+  <Hero />
+  <article class="prose prose-lg font-body max-w-none mt-8">
+    <Content />
+  </article>
+  
+
+  <details class="mt-12 group text-[1.6rem] font-bold">
+    <summary class="cursor-pointer text-6xl font-bold hover:underline flex items-center gap-2 text-gray-800">
+      <span class="text-6xl leading-none">📜&nbsp;</span>
+      <span class="text-6xl group-hover:underline"> Résumé PDF</span>
+    </summary>
+    <iframe
+      src="/Ritu%20Sangha%20CV.pdf"
+      width="100%"
+      height="600"
+      class="w-full border border-gray-300 rounded-md shadow-sm mt-4"
+    ></iframe>
+  </details>
+  
